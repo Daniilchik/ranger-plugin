@@ -30,4 +30,5 @@
      <name>ranger.plugin.hive.policy.rest.url</name>
      <value>http://ranger:6080</value>
    </property>
-   ```   
+   ```
+4. Add a Hive service in the Ranger Admin UI, and make sure its service name exactly matches the value configured in `ranger.plugin.hive.service.name`.
